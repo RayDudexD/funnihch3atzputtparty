@@ -3,8 +3,8 @@ import os
 
 app = Flask(__name__)
 
-# Use a raw string for the path or replace backslashes with double backslashes
-GAME_FILES_PATH = r'C:\Users\RayDude\Documents\Projekty\cheatsputtparty\CHEATSPUTPARTY.zip'
+# change this to your path with zip file ez as fug
+GAME_FILES_PATH = r'C:\yourpath\smth\smth\.zip'
 
 @app.route('/')
 def index():
